@@ -27,11 +27,11 @@ async def start_cmd(msg: Message) -> None:
     await msg.answer(
         f"👋 Hi, {msg.from_user.mention_html()}\n"
         "\n"
-        "🤖 This bot demonstrates a Aiogram template.\n"
+        "🤖 This bot demonstrates a Aiogram template minimal.\n"
         "\n"
         "💁‍♂️ Template created for developing bots in the Python programming language using the Aiogram library.\n"
         "\n"
-        "🔗 Template: https://github.com/andrew000/aiogram-template\n"
+        "🔗 Template: https://github.com/andrew000/aiogram-template-minimal\n"
         "<tg-spoiler>😏 Star ⭐️ my repository!</tg-spoiler>\n"
         "\n"
         "💁‍♂️ This template uses the following technologies:\n"
