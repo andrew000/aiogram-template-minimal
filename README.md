@@ -16,7 +16,7 @@ This is a minimal template for creating Telegram bots using the aiogram library.
 ### Step 1: Clone the repository
 
 ```shell
-git clone https://github.com/andrew000/aiogram-template.git
+git clone https://github.com/andrew000/aiogram-template-minimal.git
 cd aiogram-template-minimal
 ```
 
