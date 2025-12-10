@@ -22,14 +22,15 @@ cd aiogram-template-minimal
 
 ### Step 2: Install dependencies
 
-I recommend using [UV](https://docs.astral.sh/uv/) to manage your project.
+1. Install [JUST](https://just.systems/man/en/introduction.html) to manage project commands.
+2. Install [UV](https://docs.astral.sh/uv/) to manage your project.
 
 ```shell
 # Create virtual environment using UV
 uv venv --python=3.13
 
 # Install dependencies
-make sync
+just sync
 ```
 
 ### Step 3: Create `.env` file
@@ -73,7 +74,7 @@ AIOGRAM-TEMPLATE
 ├───pyproject.toml (project configuration)
 ├───.env.example (example environment file)
 ├───.pre-commit-config.yaml (pre-commit configuration)
-└───Makefile (make commands)
+└───Justfile (just commands)
 ```
 
 The bot is located in the `app/bot` directory. The bot is divided into modules, each of which is responsible for a
