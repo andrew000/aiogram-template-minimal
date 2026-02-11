@@ -1,7 +1,7 @@
 [project]
 name = "aiogram-template-minimal"
 version = "0.0.1"
-requires-python = "==3.13.11"
+requires-python = "==3.14.3"
 dependencies = [
     "bot"
 ]
@@ -16,7 +16,7 @@ package = false
 members = ["app/*"]
 
 [build-system]
-requires = ["uv_build>=0.9.0,<0.10.0"]
+requires = ["uv_build>=0.10.2,<0.11.0"]
 build-backend = "uv_build"
 
 [project.optional-dependencies]
@@ -25,7 +25,7 @@ dev = [
 ]
 lint = [
     "isort==7.0.0",
-    "ruff==0.14.10",
+    "ruff==0.15.0",
     "mypy==1.19.1",
     "types-pytz==2025.2.0.20251108",
 ]
@@ -82,8 +82,8 @@ ignore = [
     "PLC2801",
     "PLR0911", "PLR0912", "PLR0913", "PLR0914", "PLR0915", "PLR0917", "PLR1702", "PLR5501", "PLR6301",
     "PLW0120",
-    "RUF001", "RUF029",
-    "TC006",
+    "RUF001", "RUF029", "RUF067",
+    "TC002", "TC006",
     "TD002", "TD003"
 ]
 
